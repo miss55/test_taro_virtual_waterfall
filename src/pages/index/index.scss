@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+  border: 1px solid #ccc;
+  margin: 8px;
+  .left {
+    .left-img {
+      border-radius: 9px 9px 0 0;
+      max-height: 227px;
+      width: 100%;
+    }
+  }
+}
